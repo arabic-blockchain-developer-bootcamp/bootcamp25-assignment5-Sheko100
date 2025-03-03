@@ -61,7 +61,7 @@ contract Assignment5 {
 	      User memory user;
 	      user.id = id;
 	      user.name = name;
-	      users.push(user)
+	      users.push(user);
         // Hint: you have to use the keyword `memory` to define the struct
             // For example: User memory user
             // This keyword will be explained later
